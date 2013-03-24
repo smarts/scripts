@@ -1,0 +1,1 @@
+for /f "tokens=3" %%A in ('reg query HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\4.0 /v MSBuildToolsPath') do set PATH=%PATH%;%%A
